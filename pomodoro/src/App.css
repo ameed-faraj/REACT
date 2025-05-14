@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 2rem;
 }
 
 .App-logo {
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+.session-info{
+  font-size: 1.5rem;
+  color: #162681;
+  span{
+    font-weight: bold;
+    color: #af1e1e;
+  }
+}
+
+
+.timer {
+  font-size: 3rem;
+  margin: .5rem 0;
+}
+
+.controls button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.settings label {
+  display: block;
+  margin: 0.5rem 0;
 }
